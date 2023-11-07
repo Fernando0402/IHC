@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHC y Tecnologias Moviles</title>
+    <style>*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+h1{text-align: center;
+                text-transform: uppercase;
+                color: darkred;}
+table, th, td {
+    margin-top: 50px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+th {
+    background-color: yellow;
+    text-align: center;
+}
+td {
+    background-color: #96D4D4;
+    text-align: center;
+}
+body {
+    background-image: url("https://media.giphy.com/media/7C6TmBIVi3uWk/giphy.gif");
+}
+h7{
+    text-align: center;
+    padding: 5px;
+    font-family: "Roboto", sans-serif; /* Establecemos la tipografía a Roboto */
+}
+/*!--Header-->*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav{
+    background: #840000;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;    
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+li a:hover{
+    background: orange;
+    transition: 5s;
+}
+/*!--Inicio-->*/
+section.banner{
+    background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
+    padding: 3rem 0;
+}
+.containerB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.col2{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 2rem;
+    color: #840000;
+}
+#txtBanner{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+.btnBanner{
+    background: #840000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+/*SECCIÓN SERVICIOS*/
+.services{
+    padding: 3rem 0;
+}
+.subServices{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+.containerS{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.boxS{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);
+}
+.boxS img{
+    width: 100px;
+}
+.boxS h3{
+    color: #4c4c4c;
+    margin: 10px 0;
+}
+.boxS p{
+    text-align: center;
+}
+/*Pie de Pagina - Footer*/
+footer{
+    background-color: #4c4c4c;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+	</style>
+	
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Tabla</a></li>
+                <li><a href="#">Listado</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--INICIO-->
+		<div class="boxB col2">
+         <h1>Tienda deportiva Perú Sports</h1>
+         <p style="color: #000080;" id="txtBanner">
+          Perú Sports es una tienda deportiva líder en el Perú que se enorgullece de ofrecer una amplia gama de productos y equipos deportivos de alta calidad. Nuestra dedicación a satisfacer las necesidades de los atletas y entusiastas del deporte nos ha convertido en un referente en el mercado. 
+         </p>
+         <div>
+        <!--Quienes somos-->
+        <section class="services">
+            <div class="subServices">
+                <h2 style="color: #006400;">Quiénes somos</h2>
+                <p style="color: white;">
+                    ¡Bienvenidos a Perú Sports, tu tienda deportiva de confianza en <br>
+                    Perú y más allá! En asociación con la Confederación Sudamericana <br>
+                    de Fútbol (CONMEBOL), hemos construido una reputación sólida como <br>
+                    el destino definitivo para los amantes del deporte y atletas en busca <br>
+                     de calidad y pasión por el juego. 
+                </p>
+            </div>
+            <div class="containerS">
+                <div class="boxS">
+                    <iframe width="340" height="200" src="https://www.youtube.com/embed/V84jbGaPaRA?si=bfFjabN4yHRtgssX&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    <h3>Reproducción Automática</h3>
+                </div>
+                <div class="boxS">
+                    <iframe width="340" height="200" src="https://www.youtube.com/embed/V84jbGaPaRA?si=bfFjabN4yHRtgssX&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+                    <h3>Reproducción sin audio</h3>
+                </div>
+                <div class="boxS">
+                    <iframe width="340" height="200" src="https://www.youtube.com/embed/V84jbGaPaRA?si=bfFjabN4yHRtgssX" frameborder="0" allowfullscreen></iframe>
+                    <h3>Reproducción standard</h3>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container12">
+                <h7 style="color:brown;">Tabla de clasificación CONMEBOL</h7>
+                <p style="color: white;">
+                    La tabla de clasificación de CONMEBOL es una clasificación en tiempo real que muestra la posición de los equipos nacionales de fútbol de América del Sur en un torneo <br>
+                     o competición organizada por la Confederación Sudamericana de Fútbol (CONMEBOL). Esta tabla es esencial para seguir el desempeño de los equipos a lo largo de la <br>
+                     competición y determinar qué equipos se clasificarán para eventos internacionales, como la Copa del Mundo de la FIFA y la Copa América, basándose en su rendimiento y <br>
+                     puntaje acumulado. La tabla de clasificación CONMEBOL es una herramienta clave para los amantes del fútbol que desean mantenerse al tanto de la emoción y la rivalidad <br>
+                     en el fútbol sudamericano.
+                </p>
+                <table style="width:80%">
+                    <tr>
+                      <th>Pais</th>
+                      <th>Pts</th>
+                      <th>Dif. gol</th>
+                      <th>PJ</th>
+                      <th>PG</th>
+                      <th>PE</th>
+                    </tr>
+                    <tr>
+                      <td>Argentina</td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>0</td>
+                      <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Uruguay</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Brasil</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Venezuela</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>7</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!--Listado de Productos-->
+    <section>
+        <section>
+            <div class="clasificacion">
+            <h4 style="color:brown; margin-top: 20px;">Listado de productos</h4>
+            <p4 style="color: #000080;">Un listado de productos de ropa deportiva es una lista organizada que presenta una variedad de prendas y accesorios diseñados específicamente para la práctica de actividades físicas y deportivas. Estos listados suelen incluir una gama de artículos como camisetas, pantalones, calzado, chaquetas, sudaderas y accesorios deportivos, como gorras o guantes, cada uno con descripciones detalladas, tallas, colores y precios. Estos catálogos se encuentran comúnmente en tiendas en línea y establecimientos deportivos, brindando a los consumidores una visión general de las opciones disponibles para que puedan elegir la ropa deportiva adecuada para sus necesidades y preferencias.</p4>
+            <table style="width:40%">
+                <tr>
+                  <th>Nro.item</th>
+                  <th>Descripción</th>
+                  <th>Costo unidad</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td style="text-align: left;">Camiseta Color Blanco</td>
+                  <td>60 soles</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td style="text-align: left;">Camiseta Color Negro</td>
+                    <td>70 soles</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td style="text-align: left;">Camiseta Color Rojo</td>
+                    <td>80 soles</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td style="text-align: left;">Zapatillas</td>
+                    <td>250 soles</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td style="text-align: left;">Chimpunes</td>
+                    <td>340 soles</td>
+                </tr>
+                <tr>
+                    <td style="background: orange;">6</td>
+                    <td style="text-align: left;">Medias</td>
+                    <td>12 soles</td>
+                </tr>
+            </table>
+        </div>
+        </section>
+        </table>
+    </div>
+    </section>
+    </main>
+    <!--SERVICIOS-->
+    <footer>
+        <div class="footer-container">
+            <small>
+                <a href="https://www.conmebol.com/">Página Conmebol</a> 
+                <br>
+                Fernando Limaymanta
+            </small>
+        </div>
+    </footer>
+</body>
+</html>
